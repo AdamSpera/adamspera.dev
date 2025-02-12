@@ -8,8 +8,8 @@ export default function HomePage() {
       <Section id="name">
         <h1>
           <a href="/" className="flex">
-            <SectionHeader>Alex</SectionHeader>
-            <SectionBody className="text-red-600">Kern</SectionBody>
+            <SectionHeader>Adam</SectionHeader>
+            <SectionBody className="text-red-600">Spera</SectionBody>
           </a>
         </h1>
       </Section>
@@ -19,8 +19,9 @@ export default function HomePage() {
         <SectionBody>
           <List>
             <ListItem>
-              <ExternalLink href="https://figma.com/">Figma</ExternalLink>, New
-              Products
+              <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
+              Consulting Engineer
+              <SubBlock>Spec. Data Center: NX-OS &amp; NDFC</SubBlock>
             </ListItem>
           </List>
         </SectionBody>
@@ -31,81 +32,45 @@ export default function HomePage() {
         <SectionBody>
           <List>
             <ListItem>
-              <ExternalLink href="https://dynaboard.com/">
-                Dynaboard
-              </ExternalLink>
-              , Founder &amp; CEO
-              <SubBlock>
-                acq. <ExternalLink href="https://figma.com">Figma</ExternalLink>
-              </SubBlock>
+              <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
+              Consulting Engineer Extended Intern
+              <SubBlock>Spec. Data Center: NX-OS &amp; App Dev</SubBlock>
             </ListItem>
             <ListItem>
-              <ExternalLink href="https://distributedsystems.com/">
-                Distributed Systems
-              </ExternalLink>
-              , Cofounder &amp; CTO
-              <SubBlock>
-                acq.{" "}
-                <ExternalLink href="https://coinbase.com">
-                  Coinbase
-                </ExternalLink>
-              </SubBlock>
+              <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
+              Consulting Engineer Intern
+              <SubBlock>Spec. Data Center: ACI &amp; App Dev</SubBlock>
             </ListItem>
             <ListItem>
-              <ExternalLink href="https://coinbase.com/">Coinbase</ExternalLink>
-              , Crypto Tech Lead
+              <ExternalLink href="https://www.arcadia.edu/">AU</ExternalLink>,
+              Lead Networking Intern
+              <SubBlock>Spec. Meraki, FortiGate, Training</SubBlock>
             </ListItem>
             <ListItem>
-              <ExternalLink href="https://calhacks.io">Cal Hacks</ExternalLink>,
-              Founder
+              <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
+              Network Recreate Engineer Co-Op
+              <SubBlock>Spec. Layer 1 &amp; Layer 2, App Dev</SubBlock>
             </ListItem>
             <ListItem>
-              <ExternalLink href="https://www.imdb.com/name/nm11088678/">
-                HBO Silicon Valley
-              </ExternalLink>
-              , Technical Advisor
-            </ListItem>
-            <ListItem>
-              Forbes 30 <Sub>under</Sub> 30
+              <ExternalLink href="https://www.arcadia.edu/">AU</ExternalLink>,
+              Networking Intern
+              <SubBlock>Spec. Meraki, Confluence</SubBlock>
             </ListItem>
             <ListItem>
               <Disclosure>
-                <ListItem>Zebra IQ, CTO &amp; Cofounder</ListItem>
                 <ListItem>
-                  <ExternalLink href="https://www.alsop-louie.com/">
-                    Alsop-Louie Partners
+                  <ExternalLink href="https://www.codeninjas.com/">
+                    CodeNinjas
                   </ExternalLink>
-                  , Associate
+                  , IT Administrator
+                  <SubBlock>Spec. AD, LDAP, Office365</SubBlock>
                 </ListItem>
                 <ListItem>
-                  <ExternalLink href="https://apple.com">Apple</ExternalLink>,
-                  Applied Machine Learning
-                </ListItem>
-                <ListItem>
-                  <ExternalLink href="https://mars.jpl.nasa.gov/msl/">
-                    NASA JPL
+                  <ExternalLink href="https://www.arcadia.edu/">
+                    AU
                   </ExternalLink>
-                  , Software Engineering
-                </ListItem>
-                <ListItem>
-                  <ExternalLink href="https://www.berkeley.edu/">
-                    UC Berkeley
-                  </ExternalLink>
-                  , Computer Science
-                </ListItem>
-                <ListItem>Kairos Society, Regional President</ListItem>
-                <ListItem>
-                  FRC Team 1515{" "}
-                  <ExternalLink href="https://www.team1515.com/">
-                    Mortorq
-                  </ExternalLink>
-                  , Team Captain
-                </ListItem>
-                <ListItem>
-                  <ExternalLink href="https://www.planetbravo.com/">
-                    PlanetBravo Techno-Tainment Camp
-                  </ExternalLink>
-                  , CIT
+                  , Networking Assistant
+                  <SubBlock>Spec. Confluence</SubBlock>
                 </ListItem>
               </Disclosure>
             </ListItem>
@@ -116,21 +81,49 @@ export default function HomePage() {
       <Section id="links">
         <SectionHeader>Links</SectionHeader>
         <SectionBody>
-          <ExternalLink href="https://x.com/kernio">X / Twitter</ExternalLink>,{" "}
-          <ExternalLink href="https://github.com/kern">GitHub</ExternalLink>,{" "}
-          <ExternalLink href="https://www.linkedin.com/in/alexanderskern/">
+          <ExternalLink href="https://github.com/adamspera">
+            GitHub
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://www.linkedin.com/in/adamtspera/">
             LinkedIn
           </ExternalLink>
-          , <ExternalLink href="mailto:hello@kern.io">Email</ExternalLink>
+          ,{" "}
+          <ExternalLink href="mailto:adamspera@hotmail.com">Email</ExternalLink>
         </SectionBody>
       </Section>
 
       <Section id="projects">
         <SectionHeader>Projects</SectionHeader>
         <SectionBody>
-          <ExternalLink href="https://file.pizza">FilePizza</ExternalLink>,{" "}
-          <ExternalLink href="https://github.com/kern/ditto">
-            Ditto
+          <ExternalLink href="https://tophat.sh">TOPHAT</ExternalLink>,{" "}
+          <ExternalLink href="https://www.linkedin.com/pulse/idiosplash-open-source-meraki-ipsk-solution-wireless-networks-spera-tyfde/">
+            IdioSplash
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://laundrylott.com/">
+            LaundryLott
+          </ExternalLink>{" "}
+        </SectionBody>
+      </Section>
+
+      <Section id="certifications">
+        <SectionHeader>Certifications</SectionHeader>
+        <SectionBody>
+          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html">
+            CCNP EN
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/datacenter/ccnp-data-center/index.html">
+            CCNP DC
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html">
+            CCDP
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://www.linkedin.com/in/adamtspera/details/certifications/">
+            ...
           </ExternalLink>
         </SectionBody>
       </Section>

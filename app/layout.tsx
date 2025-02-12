@@ -12,36 +12,28 @@ import { Metadata } from "next";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "alex kern • kern.io",
-  description: "Hacker, Designer, Founder",
+  title: "Adam Spera • dev",
+  description: "Networking, Applications, Programming",
   authors: {
-    name: "Alex Kern",
-    url: "https://kern.io",
+    name: "Adam Spera",
+    url: "https://adamspera.dev",
   },
   viewport: "width=device-width, initial-scale=1",
-  metadataBase: new URL("https://kern.io"),
+  metadataBase: new URL("https://adamspera.dev"),
   openGraph: {
     type: "website",
-    url: "https://kern.io",
-    title: "alex kern • kern.io",
-    description: "Hacker, Designer, Founder",
-    siteName: "Kern.io",
+    url: "https://adamspera.dev",
+    title: "Adam Spera • dev",
+    description: "Networking, Applications, Programming",
+    siteName: "AdamSpera.dev",
     images: [
       {
-        url: "https://kern.io/facebook.png",
+        url: "https://adamspera.dev/facebook.png",
         width: 1200,
         height: 1200,
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "alex kern • kern.io",
-    description: "Hacker, Designer, Founder",
-    creator: "@kernio",
-    creatorId: "18856327",
-    images: ["https://kern.io/facebook.png"],
-  },
+  }
 };
 
 interface RootLayoutProps {
@@ -61,13 +53,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <footer className="mx-auto mt-12 mb-4 flex items-center justify-center text-xs">
               <div>
                 &copy; 2015-{new Date().getFullYear()} &middot;{" "}
-                <ExternalLink href="https://github.com/kern/kern.io/blob/main/LICENSE">
+                <ExternalLink href="https://github.com/AdamSpera/adamspera.dev/blob/main/LICENSE">
                   BSD 3-Clause license
                 </ExternalLink>{" "}
-                &middot;{" "}
-                <ExternalLink href="https://github.com/kern/kern.io">
-                  Fork me
-                </ExternalLink>
               </div>
 
               <div className="pl-2">

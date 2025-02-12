@@ -5,18 +5,18 @@ import { metadata as layoutMetadata } from "@/app/layout";
 
 export const metadata: Metadata = {
   ...layoutMetadata,
-  title: "writing • kern.io",
-  description: "Writings by Alex Kern",
+  title: "writing • adamspera.dev",
+  description: "Writings by Adam Spera",
   openGraph: {
     ...layoutMetadata.openGraph,
-    title: "writing • kern.io",
-    description: "Writings by Alex Kern",
-    url: "https://kern.io/p",
+    title: "writing • adamspera.dev",
+    description: "Writings by Adam Spera",
+    url: "https://adamspera.dev/p",
   },
   twitter: {
     ...layoutMetadata.twitter,
-    title: "writing • kern.io",
-    description: "Writings by Alex Kern",
+    title: "writing • adamspera.dev",
+    description: "Writings by Adam Spera",
   },
 };
 

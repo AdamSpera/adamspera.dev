@@ -44,7 +44,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const title = post.title + " • kern.io";
+  const title = post.title + " • dev";
   const description = post.description;
 
   return {
