@@ -5,19 +5,14 @@ import { metadata as layoutMetadata } from "@/app/layout";
 
 export const metadata: Metadata = {
   ...layoutMetadata,
-  title: "writing • adamspera.dev",
+  title: "Adam Spera • writings",
   description: "Writings by Adam Spera",
   openGraph: {
     ...layoutMetadata.openGraph,
-    title: "writing • adamspera.dev",
+    title: "Adam Spera • writings",
     description: "Writings by Adam Spera",
     url: "https://adamspera.dev/p",
-  },
-  twitter: {
-    ...layoutMetadata.twitter,
-    title: "writing • adamspera.dev",
-    description: "Writings by Adam Spera",
-  },
+  }
 };
 
 export default function Home() {

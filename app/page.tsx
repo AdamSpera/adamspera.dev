@@ -21,7 +21,7 @@ export default function HomePage() {
             <ListItem>
               <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
               Consulting Engineer
-              <SubBlock>Spec. Data Center: NX-OS &amp; NDFC</SubBlock>
+              <SubBlock>Data Center: NX-OS &amp; NDFC</SubBlock>
             </ListItem>
           </List>
         </SectionBody>
@@ -34,27 +34,22 @@ export default function HomePage() {
             <ListItem>
               <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
               Consulting Engineer Extended Intern
-              <SubBlock>Spec. Data Center: NX-OS &amp; App Dev</SubBlock>
             </ListItem>
             <ListItem>
               <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
               Consulting Engineer Intern
-              <SubBlock>Spec. Data Center: ACI &amp; App Dev</SubBlock>
             </ListItem>
             <ListItem>
               <ExternalLink href="https://www.arcadia.edu/">AU</ExternalLink>,
               Lead Networking Intern
-              <SubBlock>Spec. Meraki, FortiGate, Training</SubBlock>
             </ListItem>
             <ListItem>
               <ExternalLink href="https://www.cisco.com/">Cisco</ExternalLink>,
               Network Recreate Engineer Co-Op
-              <SubBlock>Spec. Layer 1 &amp; Layer 2, App Dev</SubBlock>
             </ListItem>
             <ListItem>
               <ExternalLink href="https://www.arcadia.edu/">AU</ExternalLink>,
               Networking Intern
-              <SubBlock>Spec. Meraki, Confluence</SubBlock>
             </ListItem>
             <ListItem>
               <Disclosure>
@@ -63,14 +58,12 @@ export default function HomePage() {
                     CodeNinjas
                   </ExternalLink>
                   , IT Administrator
-                  <SubBlock>Spec. AD, LDAP, Office365</SubBlock>
                 </ListItem>
                 <ListItem>
                   <ExternalLink href="https://www.arcadia.edu/">
                     AU
                   </ExternalLink>
                   , Networking Assistant
-                  <SubBlock>Spec. Confluence</SubBlock>
                 </ListItem>
               </Disclosure>
             </ListItem>
@@ -104,27 +97,6 @@ export default function HomePage() {
           <ExternalLink href="https://laundrylott.com/">
             LaundryLott
           </ExternalLink>{" "}
-        </SectionBody>
-      </Section>
-
-      <Section id="certifications">
-        <SectionHeader>Certifications</SectionHeader>
-        <SectionBody>
-          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html">
-            CCNP EN
-          </ExternalLink>
-          ,{" "}
-          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/datacenter/ccnp-data-center/index.html">
-            CCNP DC
-          </ExternalLink>
-          ,{" "}
-          <ExternalLink href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html">
-            CCDP
-          </ExternalLink>
-          ,{" "}
-          <ExternalLink href="https://www.linkedin.com/in/adamtspera/details/certifications/">
-            ...
-          </ExternalLink>
         </SectionBody>
       </Section>
     </>

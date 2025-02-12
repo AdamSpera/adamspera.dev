@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Outfit } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Analytics } from "@/components/analytics";
 import { ModeToggle } from "@/components/mode-toggle";
 import { PageNav } from "@/components/nav";
 import Image from "next/image";
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
         height: 1200,
       },
     ],
-  }
+  },
 };
 
 interface RootLayoutProps {
@@ -63,7 +62,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </div>
             </footer>
           </div>
-          <Analytics />
         </ThemeProvider>
       </body>
     </html>
