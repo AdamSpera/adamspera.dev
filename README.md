@@ -1,11 +1,6 @@
-# [kern.io](http://www.kern.io)
+# [adamspera.dev](https://adamspera.dev)
 
 My personal site's source code.
-
-## Usage
-
-    $ pnpm install
-    $ pnpm dev
 
 ## License
 
