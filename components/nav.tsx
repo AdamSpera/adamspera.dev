@@ -25,11 +25,11 @@ export function PageNav() {
             Home
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink href="/p" isSelected={isWriting}>
             Writing
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink href="https://docs.adamspera.dev" isSelected={isDocumentation}>
             Docs
